@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabin Maharjan || Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="shortcut icon" type="image/jpg" href="assets/coding.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Fredoka+One&family=Josefin+Sans&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,500&family=Ubuntu+Mono:wght@700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/3d2f093b4a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div id="logo">
+        <a href="#home">
+          
+          <!-- <img title="Go to Home Page" class='circle-logo' src="assets/pp.jpg" alt="logo" /> -->
+        </a>
+      </div>
+      <div class="hamburgerButton" id="hamBurgerButton">
+        <div class="line" id="first"></div>
+        <div class="line" id="second"></div>
+        <div class="line" id="third"></div>
+      </div>
+      <ul class="menu" id="navigation">
+        <li><a id="menu1" href="#home">Home</a></li>
+        <li><a id="menu2" href="#about">About Me</a></li>
+        <li><a id="menu3" href="#skills">Skills</a></li>
+        <li><a id="menu4" href="#projects">Projects</a></li>
+    
+      </ul>
+      <div class="mobileNav">
+        <!-- <div class="hamburgerButton">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div> -->
+        <div class="mobilemenu">
+          <h1>Menu</h1>
+          <div class="item" id="HomeMobile">
+            <a href="#home">Home</a>
+          </div>
+          <div class="item" id="AboutMobile">
+            <a href="#about">About Me</a>
+          </div>
+
+          <div class="item" id="SkillsMobile">
+            <a href="#skills">Skills</a>
+          </div>
+          <div class="item" id="ProjectsMobile">
+            <a href="#projects">Projects</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="stickyImg">
+      <img src="./assets/finalbg.png" alt="nothing" />
+    </div>
+    <div class="leftIntro">
+      <h1>Hello,</h1>
+      <h3>It's me, <span class="name">Sabin...</span></h3>
+      <h3 class="intro">
+        I'm a <span class="name" id="type">Freelancer</span>
+      </h3>
+      <a href="#" class="contactButton anchor" onclick="showCard();">Contact Me</a>
+
+      <div class="infobox" id="infobox">
+        <div class="contactBoxTopBar">
+          <h2>Contact Me</h2>
+          <i class="fas fa-times-circle" id="quit"></i>
+        </div>
+        <div class="mainContactArea">
+          <form action="backend.py"></form>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+          <label for="name">Email</label>
+          <input type="email" id="email" />
+          <label for="name">Your Message</label>
+          <textarea rows="7" cols="36"></textarea>
+          <button type="submit" class="submitButton" onClick="success()">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="rightintro">
+      <div class="circle">
+        <img src="assets/codebg.svg" alt="Proud Coder" />
+        <img src="./assets/workspace backgrounf.jpg" alt="extra" />
+        <div class="tb"></div>
+      </div>
+    </div>
+    <div class="infoContent">
+      <p>
+        Do What You Love<br />
+        Love What You Do
+      </p>
+      <i class="fas fa-laugh-wink" style="color: var(--maincolor)"></i>
+    </div>
+    <div class="scrollbarbox">
+      <a href="#about"><img src="assets/392-scroll-down-4-auto.svg" alt="Scroll" /></a>
+      <p>Scroll to see more</p>
+    </div>
+  </section>
+  <section id="about">
+    <div class="headbarabout">
+      <div class="headbar_about_content">
+        <h1>About Me</h1>
+        <h3>
+          <hr />
+          <p>Who Am I</p>
+          <hr class="line" />
+        </h3>
+      </div>
+    </div>
+    <div class="aboutmain">
+      <div class="aboutMainContent">
+        <h1 style="color: rgb(164, 243, 164);">Hello, I am Sabin Maharjan</h1>
+        I have an excellent background as a Web Developer along with my academic education in
+        Computer Science and Technology. The experience and my academic education have
+        provided me with some outstanding and technical skills. Furthermore, I have the excellence
+        of creating upstanding design of novelty. I firmly believe that these qualities make me
+        different from the rest of the contestants. <br> <hr> <br>
+        I would like to inform you also that I am highly skilled with HTML, CSS, and Javascript as I
+        have a handsome experience over it. Still I am always eager to learn a new and make my skill
+        sharper whenever I get any chance. <br>  <hr> <br>
+        Above the beyond, I have a great passion for mobile and software technology as well. I have
+        worked with some mobile companies and enjoyed the work a lot. My recruiters are always
+        delighted with my creativity, hard working and stamina.
+        <div class="btnarea">
+          <a href="assets/cv.pdf" class="contactButton anchor cv" download>Download my CV</a>
+        </div>
+      </div>
+      <div class="rightphoto">
+        <img src="assets/sabin.jpg" alt="photo" />
+      </div>
+      <div class="socialMedias">
+        <h4>Connect With Me:</h4>
+        <div class="facebook smedia">
+          <a href="https://www.facebook.com/sabn.mhzn/" target="blank" title="Facebook"><img
+              src="assets/facebook.png" alt="fb" /></a>
+        </div>
+        <div class="instagram smedia">
+          <a href="https://www.instagram.com/sabin_sheriff/" title="Instagram" target="blank"><img
+              src="assets/instagram.png" alt="instagram" /></a>
+        </div>
+        <div class="youtube smedia">
+          <a href="https://www.youtube.com/channel/UCOtwr1zR7nhaRj8AiwGO-bw" title="YouTube" target="blank"><img
+              src="assets/youtube.png" alt="YouTube" /></a>
+        </div>
+        <div class="twitter smedia">
+          <a href="https://twitter.com/sabn_007" title="Twitter" target="blank"><img src="assets/twitter.png"
+              alt="Twitter" /></a>
+        </div>
+        <div class="github smedia">
+          <a href="https://github.com/Sabn007" title="GitHub" target="blank"><img src="assets/github-logo.png"
+              alt="github" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="skillsheading">
+      <h1><span>
+          < </span>Skills<span> /></span></h1>
+      <p class="desc">
+        Click on the icons and Scroll Below for more information
+      </p>
+    </div>
+    <div class="skillsmain">
+      <div class="languages">
+        <div class="skill html" id="htmllogo">
+          <img src="assets/html.png" alt="" />
+        </div>
+        <div class="skill python" id="pythonlogo">
+          <img src="assets/python_adobespark.png" alt="" />
+        </div>
+        <div class="skill css" id="csslogo">
+          <img src="assets/css-removebg-preview.png" alt="" />
+        </div>
+        <div class="skill react" id="reactlogo">
+          <img src="assets/react-removebg-preview.png" alt="" />
+        </div>
+        <div class="skill js" id="jslogo">
+          <img src="assets/javascript-logo-.png" alt="" />
+        </div>
+        <div class="skill mongodb" id="mongodblogo">
+          <img src="assets/mongodb.png" alt="" />
+        </div>
+        <div class="skill node" id="nodelogo">
+          <img src="assets/node.png" alt="" />
+        </div>
+        <div class="skill github" id="githublogo">
+          <img src="assets/github-logo.png" alt="" />
+        </div>
+      </div>
+      <div class="skillsIndicator">
+        <div class="default" id="default">
+          <div class="defaultText">
+            <h2><i class="fab fa-angellist"></i></h2>
+            <h1>Click the Icons</h1>
+          </div>
+        </div>
+        <div class="forHTML card" id="html">
+          <span class="title">Language:</span>
+          <h3><i class="fab fa-html5"></i> HTML</h3>
+          <span class="title2">How much Do I know?</span>
+          <div class="progress">
+            <div class="progressHTML"></div>
+            <h3>90%</h3>
+          </div>
+        </div>
+        <div class="forCSS card" id="css">
+          <span class="title">Language:</span>
+
+          <h3><i class="fab fa-css3-alt"></i> CSS</h3>
+          <span class="title2">How much Do I know?</span>
+          <div class="progress">
+            <div class="progressCSS"></div>
+            <h3>85%</h3>
+          </div>
+        </div>
+        <div class="forJS card" id="js">
+          <span class="title">Language:</span>
+
+          <h3><i class="fab fa-js-square"></i> JavaScript</h3>
+          <span class="title2">How much Do I know?</span>
+          <div class="progress">
+            <div class="progressJS"></div>
+            <h3>90%</h3>
+          </div>
+        </div>
+        <div class="forPYTHON card" id="python">
+          <span class="title">Language:</span>
+
+          <h3><i class="fab fa-python"></i> Python</h3>
+          <span class="title2">How much Do I know?</span>
+          <div class="progress">
+            <div class="progressPython"></div>
+            <h3>65%</h3>
+          </div>
+        </div>
+        <div class="forREACT card" id="react">
+          <span class="title">Language:</span>
+
+          <h3><i class="fab fa-react"></i> React Js</h3>
+          <span class="title2">How much Do I know?</span>
+          <div class="progress">
+            <div class="progressReact"></div>
+            <h3>40%</h3>
+          </div>
+        </div>
+        <div class="forNode card" id="node">
+          <span class="title">Language:</span>
+
+          <h3><i class="fab fa-node"></i> Node Js</h3>
+          <span class="title2">How much Do I know?</span>
+          <div class="progress">
+            <div class="progressNode"></div>
+            <h3>50%</h3>
+          </div>
+        </div>
+        <div class="forMongodb card" id="mongodb">
+          <span class="title">Language:</span>
+
+          <h3><i class="fab fa-mongodb"></i> Mongodb</h3>
+          <span class="title2">How much Do I know?</span>
+          <div class="progress">
+            <div class="progressmongodb"></div>
+            <h3>40%</h3>
+          </div>
+        </div>
+        <div class="forGithub card" id="github">
+          <span class="title">Language:</span>
+
+          <h3><i class="fab fa-github"></i> Github</h3>
+          <span class="title2">How much Do I know?</span>
+          <div class="progress">
+            <div class="progressGithub"></div>
+            <h3>30%</h3>
+          </div>
+        </div>
+      </div>
+      <div class="programmerPhoto">
+        <img src="assets/man-removebg-preview.png" alt="" />
+      </div>
+    </div>
+  </section> <br> <br><br><br>
+  <section id="projects">
+    <div class="skillsheading" ><h1> <span style="color:#00fff0;">My Project</span></h1><hr><br><p>
+      </p><a href="" id="reposlink"></a></p></div>
+  </section>
+  
+  <footer>
+    <h3>Copyright (c) 2021. All Rights Reserved. Designed & Developed By Sabin Maharjan</h3>
+  </footer>
+  
+  
+  
+  
+  <script src="script.js"></script>
+
+  
+</body>
+
+</html>

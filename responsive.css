@@ -1,0 +1,344 @@
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  div.infoContent > p {
+    margin-top: 67px;
+    font-size: 1.5rem;
+  }
+
+  div.circle {
+    width: 500px;
+    height: 500px;
+    top: 50px;
+    right: 2px;
+    overflow-y: hidden;
+  }
+}
+@media (max-width: 1200px) {
+  #skills::before {
+    content: "";
+    background: transparent;
+  }
+  #skills::after {
+    content: "";
+    background: transparent;
+  }
+}
+.skillsheading p.desc {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  color: #fff;
+  font-family: var(--mainFont);
+  font-size: 1.3rem;
+  width: 50%;
+}
+
+@media screen and (max-width: 1050px) {
+  div.skillsheading h1 {
+    margin: 4rem 5rem;
+  }
+  .skillsheading p.desc {
+    bottom: 10px;
+  }
+  div.leftIntro {
+    height: 140vh;
+  }
+  div.circle {
+    width: 200vh;
+    height: 250px;
+    top: 77vh;
+    right: 0px;
+    overflow-y: hidden;
+    border-radius: 0;
+    background-image: url(./assets/workspace\ backgrounf.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+  }
+
+  div.leftIntro {
+    overflow-x: hidden;
+    margin-right: 9rem;
+    width: 625px;
+    margin-left: -50px;
+    margin-top: -38px;
+  }
+  div.rightintro {
+    width: 100px;
+  }
+  div.infoContent {
+    display: none;
+  }
+  div.circle > [alt="Proud Coder"] {
+    width: 100vw;
+    margin-left: 460px;
+    height: 100px;
+    display: none;
+  }
+  #home {
+    justify-content: space-between;
+  }
+  a.contactButton {
+    border-radius: 8px;
+    width: 300px;
+    margin: 15px 74px;
+  }
+  div.scrollbarbox {
+    display: none;
+  }
+
+  .leftIntro > h1 {
+    font-size: 4.3rem;
+  }
+  .leftIntro h3 {
+    font-size: 1.5rem;
+  }
+  .leftIntro span {
+    font-size: 2rem;
+  }
+  .menu {
+    margin-left: 130px;
+  }
+  div.infobox {
+    z-index: 1000;
+    /* left: 0%;
+    top: 13%; */
+  }
+  .fa-times-circle::before {
+    content: "\f057";
+    position: absolute;
+    left: -53px;
+  }
+  #about {
+    height: 156vh;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  div.aboutmain {
+    flex-wrap: wrap;
+  }
+  div.aboutMainContent {
+    max-width: 1000px;
+    width: 800px;
+    margin-left: 10px;
+    margin-bottom: 54px;
+  }
+  .aboutmain .rightphoto {
+    margin: 0 89px;
+
+    margin-bottom: 23px;
+  }
+  .aboutmain .rightphoto img {
+    width: 300px;
+    height: 300px;
+  }
+  div.btnarea {
+    position: absolute;
+    bottom: -0px;
+    left: 0;
+  }
+  a.contactButton.cv {
+    margin: 2px 0;
+  }
+  #skills {
+    height: fit-content;
+  }
+  .skillsmain .skillsIndicator {
+    height: 19rem;
+    margin-top: 8rem;
+  }
+  #section::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    clip-path: circle(50% at 50% 50%);
+    inset: 0;
+    background: linear-gradient(
+      60deg,
+      rgba(255, 98, 215, 1) 29%,
+      rgba(249, 227, 4, 1) 74%,
+      rgba(255, 235, 0, 1) 76%
+    );
+    z-index: -1;
+    left: 64%;
+    top: 55%;
+  }
+}
+
+@media screen and (min-width: 727px) and (max-width: 1049px) {
+  div.stickyImg {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  #navigation {
+    display: none;
+  }
+  [alt="logo"] {
+    display: none;
+  }
+  .hamburgerButton {
+    visibility: visible;
+  }
+  div.mobileNav {
+    display: block;
+  }
+
+  div.socialMedias {
+    flex-direction: row;
+    gap: 15px;
+  }
+  #about {
+    height: 190vh;
+  }
+  .skillsheading h1 {
+    font-size: 57px;
+  }
+  .skillsheading h1 span {
+    font-size: 60px;
+    top: -3px;
+  }
+  .programmerPhoto {
+    margin: 10px -106px;
+    top: -17vh;
+  }
+  .programmerPhoto img {
+    width: 15rem;
+    height: 15rem;
+  }
+  div.languages {
+    margin-left: 3rem;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 920px) {
+  div.infobox {
+    z-index: 1000;
+    left: 30%;
+    top: 13%;
+  }
+}
+@media screen and (max-width: 500px) {
+  div.infobox {
+    z-index: 1000;
+    left: 0%;
+    top: 13%;
+    width: 100%;
+  }
+  div.rightphoto {
+    margin: 21px 10px !important;
+  }
+  div.languages {
+    margin-left: 3rem;
+    width: 197px;
+  }
+  .programmerPhoto {
+    display: none;
+  }
+  div.leftIntro {
+    margin-right: 0rem;
+  }
+  #about {
+    height: fit-content;
+  }
+  .skillsmain .skillsIndicator {
+    margin: 7rem 0;
+    width: 100vw;
+  }
+  .skillsmain .skillsIndicator span.title {
+    padding-top: 0px;
+  }
+  .skillsmain .skillsIndicator h3 {
+    font-size: 32px;
+  }
+  div.skillsheading h1 {
+    margin-bottom: 6rem;
+  }
+  .skillsheading p.desc {
+    bottom: 5px;
+  }
+}
+@media screen and (max-width: 365px) {
+  div.skillsheading h1 {
+    margin-bottom: 7rem;
+  }
+  .skillsheading p.desc {
+    bottom: 0px;
+  }
+}
+@media screen and (max-width: 300px) {
+  div.skillsheading h1 {
+    margin-bottom: 13rem;
+  }
+  .skillsheading p.desc {
+    bottom: 50px;
+  }
+  .aboutmain .rightphoto img {
+    margin-left: 0;
+    width: 100%;
+    height: 200px;
+  }
+  div.skillsheading h1 {
+    font-size: 45px;
+  }
+  #about {
+    height: fit-content;
+  }
+  div.infobox {
+    width: 290px;
+    height: 500px;
+    overflow-y: hidden;
+    left: 0;
+  }
+  div.aboutMainContent {
+    height: fit-content;
+  }
+  div.socialMedias {
+    /* margin-top: 7rem; */
+    flex-wrap: wrap;
+  }
+  div.headbarabout h3 {
+    margin-left: -48px;
+  }
+  div.languages {
+    grid-template-columns: repeat(auto-fit, minmax(40px, 80px));
+    width: max-content;
+    margin-bottom: 6rem;
+    box-shadow: none;
+    margin: 5rem auto;
+  }
+  #skills {
+    height: fit-content;
+  }
+}
+@media (max-width: 215px) {
+  div.headbarabout h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .leftIntro h1 {
+    font-size: 3em;
+  }
+  .leftIntro h3 {
+    font-size: 1em;
+  }
+  .leftIntro span.name {
+    font-size: 1.6rem;
+  }
+  span#type.name {
+    font-size: 1.6rem;
+  }
+  a.contactButton {
+    width: 247px;
+  }
+  .leftIntro h3.intro > span::before {
+    top: -10px;
+    height: fit-content;
+  }
+  .headbarabout h1 {
+    font-size: 49px;
+  }
+}
