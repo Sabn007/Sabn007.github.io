@@ -1,9 +1,11 @@
 //Type the strings here
 // ##########################################
 const arr = ["Web Developer", "MERN Stack Developer", "Freelancer"];
+const arr1 = ['Work','Fast','Right']
 // #################################################
 //Variable declaration
 let noOfItems = arr.length;
+let noOfItems1 = arr1.length;
 const Home = document.getElementById("menu1");
 const About = document.getElementById("menu2");
 const Skill = document.getElementById("menu3");
@@ -48,6 +50,14 @@ function getOne() {
     arr[selected].length
   );
 }
+function getOne1() {
+  let selected1 = Math.floor(Math.random() * noOfItems1);
+  document.querySelector("span#type1").innerHTML = arr1[selected1];
+  document.documentElement.style.setProperty(
+    "--wordLength",
+    arr1[selected1].length
+  );
+}
 
 function getWidth() {
   let spanbox = document.getElementById("type");
@@ -55,8 +65,16 @@ function getWidth() {
   width = width + "px";
   document.documentElement.style.setProperty("--spanwidth", width);
 }
+function getWidth1() {
+  let spanbox = document.getElementById("type1");
+  let width = spanbox.offsetWidth;
+  width = width + "px";
+  document.documentElement.style.setProperty("--spanwidth", width);
+}
 setInterval(getOne, 4000);
+// setInterval(getOne1, 4000);
 setInterval(getWidth, 4000);
+// setInterval(getWidth1, 4000);
 
 function showCard() {
   if (shown) {

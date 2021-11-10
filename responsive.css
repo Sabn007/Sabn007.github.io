@@ -119,8 +119,10 @@
     flex-wrap: wrap;
   }
   div.aboutMainContent {
+    
     max-width: 1000px;
     width: 800px;
+    height: 570px;
     margin-left: 10px;
     margin-bottom: 54px;
   }
